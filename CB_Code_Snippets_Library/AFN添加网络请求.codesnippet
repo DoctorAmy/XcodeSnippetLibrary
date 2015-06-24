@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>afadd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark ----------&lt;#requsetName#&gt;网络请求----------
+- (void)requestFor&lt;#requestName#&gt;
+{
+    [SVProgressHUD showWithStatus:@"正在加载..." maskType:SVProgressHUDMaskTypeClear];
+    
+    NSMutableString *requestUrl = [[NSMutableString alloc] initWithFormat:@"%@&lt;#urlType#&gt;?",HTTPBASEURL];
+    
+    [requestUrl appendFormat:@"&amp;version=%@",@"1"];
+    [requestUrl appendFormat:"&lt;#parameter#&gt;=%@",&lt;#parameter#&gt;];
+    
+    NSString *urlString = [NSString stringWithFormat:@"%@",requestUrl];
+
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];
+    
+    [manager GET:urlString parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [SVProgressHUD dismiss];
+        
+        NSLog(@"\n[&lt;#typeName#&gt;返回数据]\n          [status]---&gt;%@   [msg]---&gt;%@   [res]---&gt;\n%@\n",[responseObject objectForKey:@"status"],[responseObject objectForKey:@"msg"],[responseObject objectForKey:@"res"]);
+        
+        [self dealDataWith:responseObject];
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [SVProgressHUD showErrorWithStatus:@"请检查您的网络"];
+    }];
+}
+
+- (void)dealDataWith:(id)responseObject
+{
+    NSInteger code = [[responseObject objectForKey:@"status"] integerValue];
+    NSString *message = [responseObject objectForKey:@"msg"];
+    id resObj = [responseObject objectForKey:@"res"];
+    if(code == 0)
+    {
+        NSLog(@"[res]---&gt;%@",resObj);
+        
+        
+        
+    }else{
+        [SVProgressHUD showErrorWithStatus:message];
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F7201F39-1D0F-4832-AFE0-94F982584F2C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>afadd</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AFN添加网络请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
