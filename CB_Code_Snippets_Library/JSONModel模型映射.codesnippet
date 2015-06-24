@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jmmap</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSLog(@"[res]---&gt;%@",resObj);
+        NSArray *resArr = (NSArray *)resObj;
+        [_dataArr removeAllObjects];
+        
+        for (NSDictionary *dataDic in resArr) {
+            NSLog(@"[JSONString]---&gt;%@",[dataDic JSONString]);
+            FinacialProductModel *model = [[FinacialProductModel alloc] initWithDictionary:dataDic error:nil];
+            NSLog(@"[FinacialProductModel]---&gt;%@",model);
+            [_dataArr addObject:model];
+        }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5F82676F-AB11-45BD-9B35-62A7DA800E84</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>jmmap</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JSONModel模型映射</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
