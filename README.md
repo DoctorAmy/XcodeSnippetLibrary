@@ -12,6 +12,7 @@
 #2.代码片段路径
     ------------------------------------------------------------------------------
     ~/Library/Developer/Xcode/UserData/CodeSnippets
+    ![image](https://raw.githubusercontent.com/ChaoBo/CB_XCode_Snippet_Library/master/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E6%9C%AC%E5%9C%B0%E8%B7%AF%E5%BE%84.png)
 
     1.该路径下的文件夹默认不显示
     2.手动添加代码片段后 CodeSnippets 文件夹显示
