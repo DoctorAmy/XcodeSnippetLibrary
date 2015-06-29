@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dgscr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark ---------- UIScrollViewDelegate ---------
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    //开始拖拽
+}
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    //拖拽结束
+}
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    //偏移量
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D69E9F53-59C6-4990-BC74-2E0BFDC21FBE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>dgscr</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>代理UIScrollViewDelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
