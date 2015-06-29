@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addtfd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//&lt;#parameter#&gt;
+UITextField *textField = [[UITextField alloc] init];
+textField.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)
+textField.delegate = self;
+textField.tag = 0;
+textField.placeholder = @"&lt;#string#&gt;";
+textField.font = [UIFont systemFontOfSize:17];
+textField.textColor =[UIColor blackColor];
+textField.clearButtonMode =  UITextFieldViewModeNever;
+textField.keyboardType = UIKeyboardTypeDefault;
+textField.autocorrectionType = UITextAutocorrectionTypeNo;
+[self.view addSubview:textField];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>09B0CCA4-1956-4839-B3E9-669541A86DA8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>addtfd</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>添加UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

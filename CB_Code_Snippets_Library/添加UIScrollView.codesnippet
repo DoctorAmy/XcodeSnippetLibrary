@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addscr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//&lt;#parameter#&gt;
+UIScrollView *scrollView = [[UIScrollView alloc] init];
+scrollView.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+scrollView.delegate = self;
+scrollView.contentSize = CGSizeMake(&lt;#parameter#&gt;,&lt;#parameter#&gt;);
+scrollView.backgroundColor = [UIColor clearColor];
+scrollView.showsHorizontalScrollIndicator = NO;
+scrollView.showsVerticalScrollIndicator = NO;
+scrollView.pagingEnabled = YES;
+scrollView.bounces = YES;
+[self.view addSubview:scrollView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1CD8AA09-D764-444F-887B-95D404F9CC6C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>addscr</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>添加UIScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

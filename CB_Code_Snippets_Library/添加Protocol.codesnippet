@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addpro</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@class &lt;#name#&gt;;
+@protocol  &lt;#delegateName#&gt;Delegate&lt;NSObject&gt;
+@required
+- (&lt;#returnType#&gt;)&lt;#parameter#&gt;With:(&lt;#Object#&gt;*)sender;
+@optional
+- (&lt;#returnType#&gt;)&lt;#parameter#&gt;With:(&lt;#Object#&gt;*)sender;
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FBFE7716-8371-44F3-A575-DA7C45DE38F9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>addpro</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>添加Protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
