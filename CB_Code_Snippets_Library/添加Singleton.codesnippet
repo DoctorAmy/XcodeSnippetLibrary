@@ -3,21 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addact</string>
+	<string>addsgt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[[UIActionSheet alloc]initWithTitle:@"&lt;#Title#&gt;" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"&lt;#Title#&gt;",@"&lt;#Title#&gt;",nil]showInView:self.view];</string>
+	<string>//&lt;#parameter#&gt;
++ (&lt;#parameter#&gt;*)shared&lt;#parameter#&gt;{
+    
+    static dispatch_once_t once;
+    static &lt;#parameter#&gt; *sharedObj;
+    
+    dispatch_once(&amp;once, ^ {
+        sharedObj = [[&lt;#parameter#&gt; alloc] init];
+    });
+    
+    return sharedObj;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B67C665-A267-440F-846D-B6FAA708C969</string>
+	<string>34067D85-14D6-4D08-8F45-2D9776B754ED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>addact</string>
+	<string>addsgt</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加UIActionSheet</string>
+	<string>添加Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addact</string>
+	<string>addext</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[[UIActionSheet alloc]initWithTitle:@"&lt;#Title#&gt;" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"&lt;#Title#&gt;",@"&lt;#Title#&gt;",nil]showInView:self.view];</string>
+	<string>@interface &lt;#YourClassName#&gt; ()&lt;&lt;#DelegateName#&gt;&gt;
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B67C665-A267-440F-846D-B6FAA708C969</string>
+	<string>520011CE-0DA7-4690-A27C-71AB8AED0AE1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>addact</string>
+	<string>addext</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加UIActionSheet</string>
+	<string>添加Extension</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

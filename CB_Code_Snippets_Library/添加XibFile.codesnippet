@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addact</string>
+	<string>addxib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[[UIActionSheet alloc]initWithTitle:@"&lt;#Title#&gt;" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"&lt;#Title#&gt;",@"&lt;#Title#&gt;",nil]showInView:self.view];</string>
+	<string>+ (id)&lt;#parameter#&gt;
+{
+    &lt;#parameter#&gt; *xibObj = [[NSBundle mainBundle] loadNibNamed:@"&lt;#parameter#&gt;" owner:nil options:nil][0];
+    return xibObj;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B67C665-A267-440F-846D-B6FAA708C969</string>
+	<string>E3459A60-4214-40A9-9779-EF152DE4E4C2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>addact</string>
+	<string>addxib</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加UIActionSheet</string>
+	<string>添加XibFile</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
