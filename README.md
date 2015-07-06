@@ -33,6 +33,8 @@
 
 
 ##4.代码片段的扩展名
+
+
 * 代码片段扩展名 `.codesnippet`
 
 
@@ -59,6 +61,7 @@
 
 ##6.代码片段的标签
 
+
 * 为了更好的展示代码片段库,建议已标签进行排序,每一组代码片段都有自己的标签
 
 
@@ -67,20 +70,30 @@
 	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E6%A0%87%E7%AD%BE.png?raw=true)
 
 
-* 同时在代码中输入pt即可展示所有属性代码片段的具体展示,程序员可根据需要选择属于自己的代码片段,方便快捷,比如:
+
+
+##7.代码片段快捷键
+
+
+* 快捷键的分类同标签分类
+
+
+* 快捷键前半部分在每组分类中均相同,比如添加属性的代码片段中,`ptstr`是添加一个`NSString` 的属性代码片段,`ptbtn`是添加一个`UIButton`的属性代码片段,都以`pt`开头,比如:
 
 	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E5%BF%AB%E6%8D%B7%E9%94%AE.png?raw=true)
 
 
 
 
-##7.代码片段快捷键
-* 快捷键的分类,快捷键的分类以同标签分类,快捷键前半部分在每组分类中均相同,比如添加属性的代码片段中,`ptstr`是添加一个`NSString` 的属性代码片段,`ptbtn`是添加一个`UIButton`的属性代码片段,都以`pt`开头
-
-
-
 ##8.代码片段文件展示格式
-* Xcode代码片段库中的格式,前面为代码前段的名称,紧接着是代码片段的快捷键,你在XCode代码片段列表中可以看到如下标题,比如: `属性UILable - ptlab `," - "的`前半部分即就是该代码的名称`,`后半部分即就是代码片段的快捷键`,以方便程序员查询
+* Xcode代码片段库中的格式,前半部为代码前段的名称,后半部是代码片段的快捷键
+
+* 你在XCode代码片段列表中可以看到如下标题,比如: `属性UILable - ptlab `," - "的`前半部分即就是该代码的名称`,`后半部分即就是代码片段的快捷键`,以方便程序员查询
+
+* 代码片段中,所有的代码片段可见范围为全局范围,即就是在代码中的任何地方输入代码片段的快捷键,均可调出该段代码,代码片段的可见范围统一修改为`All`,比如:
+
+	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E7%9A%84%E5%8F%AF%E8%A7%81%E8%8C%83%E5%9B%B4.png?raw=true)
+
 
 
 ##9.代码片段提交注释格式
