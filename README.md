@@ -64,10 +64,13 @@
 
 * `标签以2-5个字母为规范添加`,该组字母也就是这组代码片段的快捷键标识,比如:`属性*.codesnippet`的标签就是 `pt`
 
-	
+	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E6%A0%87%E7%AD%BE.png?raw=true)
 
 
-* 同时在代码中输入pt即可展示所有属性代码片段的具体展示,程序员可根据需要选择属于自己的代码片段,方便快捷
+* 同时在代码中输入pt即可展示所有属性代码片段的具体展示,程序员可根据需要选择属于自己的代码片段,方便快捷,比如:
+
+	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E5%BF%AB%E6%8D%B7%E9%94%AE.png?raw=true)
+
 
 
 
