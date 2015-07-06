@@ -1,26 +1,34 @@
 #CB_XCode_Snippet_Library
 
 
-##1.代码片段库    
+##1.代码片段库 
+
+
 * 该代码片段库,对常用的代码片段进行了归类整理,目标只有一个,培养一个更`"懒惰"`的iOS程序猿
+
 
 * 提高开发效率,`把你从重复的劳动中解脱出来`,以节省更多的时间,向iOS大牛进发!
     
 
 
 ##2.代码片段路径
-* `~/Library/Developer/Xcode/UserData/CodeSnippets` 
-   ![CodeSnippet Floder Path](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E6%9C%AC%E5%9C%B0%E8%B7%AF%E5%BE%84.png?raw=true)
 
- 
+
+* `~/Library/Developer/Xcode/UserData/CodeSnippets` 
+
+   ![CodeSnippet Floder Path](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E6%9C%AC%E5%9C%B0%E8%B7%AF%E5%BE%84.png?raw=true)
 
 
 
 ##3.代码片段切换光标
+
+
 * Tab键可以在代码中切换光标的位置:
 
-* 在代码中输入 `<#        #>` 即可生成一个光标切换点,如: <#这是一个光标切换点#> ,最终效果:![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E5%85%89%E6%A0%87%E6%9C%AA%E9%80%89%E4%B8%AD.png?raw=true)
 
+* 在代码中输入 `<#这是一个光标切换点#>` 即可生成一个光标切换点,如:
+
+	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E5%85%89%E6%A0%87%E6%9C%AA%E9%80%89%E4%B8%AD.png?raw=true)
 
 
 
@@ -29,12 +37,19 @@
 
 
 
+
 ##5.代码片段的命名
-* 名称的分类:手动添加的代码片段,前面是一段又臭又长的标识,比如:
+
+
+* 手动添加的代码片段,前面是一段又臭又长的标识,比如:
+
 	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E9%BB%98%E8%AE%A4%E5%90%8D%E7%A7%B0.png?raw=true)
 
-* 为了更好的适应人类阅读,本库中的代码片段全部摒弃该类标识,按照分类进行命名,比如:
+
+* 为了更好的适应人类阅读,本库中的代码片段全部摒弃该类标识,按照分类重新进行命名,比如:
+
 	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E6%9B%B4%E6%94%B9%E5%90%8D%E7%A7%B0.png?raw=true)
+
 
 * 该库中,每组分类名称头部一致,比如:
 
