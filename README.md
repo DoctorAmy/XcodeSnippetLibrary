@@ -3,13 +3,20 @@
 
 ##1.代码片段库 
 
+* Xcode中代码片段,已文件加载的形式展示,也就是说,代码片段是一个文件
+
+
+* 本库结构如下,只需将`CB_Code_Snippets_library`目录下的`所有文件`拷贝至Xcode代码片段文件夹中即可
+
+	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E5%BA%93%E7%BB%93%E6%9E%84.png?raw=true)
+
 
 * 该代码片段库,对常用的代码片段进行了归类整理,目标只有一个,培养一个更`"懒惰"`的iOS程序猿
 
 
 * 提高开发效率,`把你从重复的劳动中解脱出来`,以节省更多的时间,向iOS大牛进发!
-    
 
+    
 
 ##2.代码片段路径
 
@@ -86,21 +93,30 @@
 
 
 ##8.代码片段文件展示格式
+
+
 * Xcode代码片段库中的格式,前半部为代码前段的名称,后半部是代码片段的快捷键
+
 
 * 你在XCode代码片段列表中可以看到如下标题,比如: `属性UILable - ptlab `," - "的`前半部分即就是该代码的名称(Name)`,`后半部分即就是代码片段的快捷键(ShortCut)`,以方便程序员查询,比如:
 
 	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E5%88%97%E8%A1%A8.png?raw=true)
 
 
-* 代码片段中,所有的代码片段可见范围为全局范围,即就是在代码中的任何地方输入代码片段的快捷键,均可调出该段代码,代码片段的可见范围统一修改为`All`,比如:
+* 所有的代码片段全局可见,即就是在代码中的任何地方输入代码片段的快捷键,均可调出该段代码,可见范围统一修改为`All`,比如:
 
 	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E7%9A%84%E5%8F%AF%E8%A7%81%E8%8C%83%E5%9B%B4.png?raw=true)
 
 
 
 ##9.代码片段提交注释格式
-* 每次提交注释的格式,每次提交按组分类,注释为`[前半部分]-[后半部分]`,前半部分为代码片段的分类,比如:[属性添加],后半部分为代码片段快捷键的分组标识,比如[pt]
+
+* 本库没有写任何Demo,为了更加明确使用方法,提交事格式固定.
+
+
+* 每次提交注释的格式,每次提交按组分类,注释为`[前半部分]-[后半部分]`,前半部分为代码片段的分类,比如:`[属性添加]`,后半部分为代码片段快捷键的分组标识,比如:`[pt]`
+
+	![image](https://github.com/ChaoBo/CB_XCode_Snippet_Library/blob/master/CB_Code_Snippets_Images/%E6%8F%90%E4%BA%A4%E6%A0%BC%E5%BC%8F.png?raw=true)
     
         
 
