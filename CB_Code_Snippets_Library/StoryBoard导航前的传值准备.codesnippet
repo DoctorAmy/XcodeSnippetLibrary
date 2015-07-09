@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sbprepare</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    &lt;#DestinationViewController#&gt; *vc = segue.destinationViewController;
+    
+    if ([segue.identifier compare:@"&lt;#SegueIdentifier#&gt;" ]== NO &amp;&amp;
+        [vc respondsToSelector:@selector(&lt;#PropertySetMethod#&gt;)] == YES) {
+        
+        [vc setValue:model forKey:@"&lt;#PropertyName#&gt;"];
+        
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>44D92491-360F-4BA9-B96C-AF143994FCFC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>sbprepare</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>StoryBoard导航前的传值准备</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
